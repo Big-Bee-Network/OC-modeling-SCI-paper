@@ -3,9 +3,9 @@
 # a url without scheme like https:// (e.g., ```url: foodorganisms.txt```) 
 # is assumed to be a local file in working directory
 datasets:
-    - url: names.csv
+    - url: globibees_namesmissing_02mar24.tsv
       enabled: true
-      type: text/csv
+      type: text/tab-separated-values
     - url: https://docs.google.com/spreadsheets/u/0/d/1d-4X2xFdf-PkhXRsRu63Wx00kJiZsrNyCM9QqG2rvPA/export?format=tsv
       enabled: false
       type: text/tab-separated-values
